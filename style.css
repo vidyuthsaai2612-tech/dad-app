@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(135deg, #74b9ff, #a29bfe);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.card-container {
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    text-align: center;
+    max-width: 450px;
+    width: 100%;
+}
+
+h1 { color: #2d3436; font-size: 1.8rem; }
+h2 { color: #0984e3; font-size: 1.3rem; margin-top: 25px; }
+
+.photo-frame img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 5px solid #dfe6e9;
+}
+
+button {
+    background-color: #0984e3;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+button:hover {
+    background-color: #74b9ff;
+    transform: scale(1.05);
+}
+
+.coupon {
+    background: #ffeaa7;
+    border: 2px dashed #fdcb6e;
+    padding: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    margin: 15px 0;
+    color: #d63031;
+}
